@@ -1,0 +1,78 @@
+
+<head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- <link rel="stylesheet" href="./tailwind.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Chi Desk</title>
+   
+  </head>
+
+  <div>        
+    <div class="h-full w-full flex overflow-hidden antialiased text-gray-800 bg-white">   
+        <div class="flex-1 flex flex-col">
+            <!-- section body top nav -->
+            <nav class="flex-none flex justify-between bg-white h-14">
+            
+            <!-- top bar left -->
+            <button class="flex items-center h-full px-6 text-4xl">
+                <a href="">&#10012;</a>
+            </button>            
+            <!-- top bar left -->
+             
+            <!-- to bar right  -->
+            <ul aria-label="top bar right" aria-orientation="horizontal" class="px-8 flex items-center">                      
+                <li class="group relative h-8 w-8 ml-3">
+                    <button title="Products" aria-label="chi desk products" class="w-full h-full rounded-md focus:outline-none focus:shadow-outline">
+                        <i class="text-gray-600">
+                            <svg class="fill-current w-5 h-5 mx-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M11 11h-11v-11h11v11zm13 0h-11v-11h11v11zm-13 13h-11v-11h11v11zm13 0h-11v-11h11v11z" />
+                            </svg>
+                        </i>
+                    </button>
+                <span class="absolute p-1  group-hover:block pr-64">
+                    <ul id="add" role="listbox" class="outline-none py-2 bg-white border rounded-md w-screen max-w-md w-dropdown-large shadow-lg focus:outline-none leading-relaxed">
+                        <li role="separator" class="mb-2">
+                            <label class="block px-4 py-3 font-semibold">New</label>
+                            <hr />
+                        </li>
+                        <li role="option" class="px-6 py-1 my-1 focus:outline-none focus:bg-blue-100 hover:bg-blue-100 cursor-pointer">Ticket</li>
+                        <li role="option" class="px-6 py-1 my-1 focus:outline-none focus:bg-blue-100 hover:bg-blue-100 cursor-pointer">User</li>
+                        <li role="option" class="px-6 py-1 my-1 focus:outline-none focus:bg-blue-100 hover:bg-blue-100 cursor-pointer">Organization</li>
+                        <li role="option" class="px-6 py-1 my-1 focus:outline-none focus:bg-blue-100 hover:bg-blue-100 cursor-pointer">Search</li>
+                        <li role="separator" class="mb-2">
+                            <label class="block px-4 py-3 font-semibold">Recently Viewed</label>
+                            <hr />
+                        </li>           
+                    </ul>
+                </span>
+                </li>
+
+                <!-- profile picture -->
+                <div class="relative">
+                    <li class="h-10 w-10 ml-3">
+                    <button class="h-full w-full rounded-full border focus:outline-none focus:shadow-outline">
+                        <img class="h-full w-full rounded-full mx-auto" src="https://raw.githubusercontent.com/bluebrown/tailwind-zendesk-clone/master/public/assets/me.jpg" />
+                    </button>
+                    </li>
+                    <span class="absolute hidden group-hover:block">
+                        <ul>
+                            <li>
+                                <label for="">logout</label>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+                <!-- profile picture -->
+
+            </ul>
+            <!-- to bar right  -->
+            
+            </nav>            
+        </div>
+    </div>
+
+</div>
